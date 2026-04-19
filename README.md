@@ -46,7 +46,7 @@ Average Customer Lifetime: ~32 months
 
 Provides a high-level summary of churn patterns
 
-###KPI Cards:
+### KPI Cards:
 
 Total Customers
 Customers Churned
