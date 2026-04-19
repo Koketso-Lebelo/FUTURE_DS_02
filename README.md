@@ -1,106 +1,108 @@
-# Customer Retention & Churn Analysis Dashboard
-# Project Overview
+# Customer Churn & Retention Analysis Dashboard | Power BI
 
-This project analyzes customer churn in a subscription-based telecom business using Power BI (with supporting data preparation). The goal is to identify churn patterns, understand customer behavior, and provide actionable recommendations to improve retention and increase customer lifetime value.
 
-This project simulates real-world analytics work done by data analysts in SaaS and subscription-based companies.
+An interactive **Power BI dashboard** analyzing customer churn for a subscription-based Telecom company. This project identifies churn patterns, key risk factors, and provides actionable insights to improve customer retention and increase Lifetime Value (LTV).
 
-# Objectives
-Analyze overall churn rate and retention trends
-Identify high-risk customer segments
-Understand key drivers of churn
-Analyze customer lifetime behavior
-Provide business recommendations to reduce churn
-# Dataset
-Dataset Used: Telco Customer Churn Dataset
-Contains customer demographics, subscription details, services, and churn status
+Designed to simulate real-world analytics work in SaaS, Telecom, and subscription-based businesses.
 
-## Dataset link:
-https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+##  Project Objectives
 
-## Tools & Technologies
- Power BI
-Data cleaning & transformation
-DAX measures (KPIs & churn metrics)
-Interactive dashboard design
-Data visualization
-# Data Preparation
+- Calculate overall churn rate and retention trends
+- Identify high-risk customer segments
+- Uncover the main drivers of customer churn
+- Analyze customer lifetime behavior
+- Deliver data-driven recommendations to reduce churn
 
-### Key steps performed:
+## Files included
+1. Future Interns task 2.pbix 
+2. Customer Churn analysis.mp4 – Screen recording / video walkthrough showing the report’s functionality and interactions
 
-Cleaned and structured the dataset
-Converted data types where necessary
-Created calculated columns and measures
-Removed inconsistencies and handled missing values
- Feature Engineering (Power BI)
-Tenure Group – Customer lifecycle segmentation
-Monthly Charge Band – Pricing segmentation
-Customer Status – Churned vs Retained
-Churn Rate measures using DAX
- Key Metrics
-Total Customers: ~7,000
-Churn Rate: ~27%
-Average Customer Lifetime: ~32 months
- Dashboard Overview
- Page 1: Executive Overview
+##  Dataset
 
-Provides a high-level summary of churn patterns
+**Dataset:** Telco Customer Churn Dataset  
+**Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-### KPI Cards:
+The dataset contains **~7,000 customers** with information on demographics, subscription details, services used, billing, and churn status.
 
-Total Customers
-Customers Churned
-Customer Churn Rate (%)
-Average Customer Lifetime (Months)
-Average Monthly Charges
+##  Tools & Technologies
 
-### Key Visuals:
+- **Power BI Desktop** – Dashboard development & visualization
+- **Power Query** – Data cleaning and transformation
+- **DAX** – Custom measures and KPIs
+- Interactive filtering and slicing
 
-Churn Rate by Contract Type
-Churn Rate by Tenure Group
-Churn Rate by Payment Method
-Churn Rate by Internet Service
-Churn Rate by Monthly Charges
+##  Data Preparation & Feature Engineering
 
-### Filters:
+- Cleaned and standardized the dataset
+- Handled missing values and data type conversions
+- Created new calculated columns:
+  - **Tenure Group** (Customer lifecycle segmentation)
+  - **Monthly Charge Band** (Pricing segmentation)
+  - **Customer Status** (Churned vs Retained)
+- Built DAX measures for Churn Rate, Retention Rate, and Average Customer Lifetime
 
-Gender
-Internet Service
-Contract
-Tenure Group
- Page 2: Retention Drivers Analysis
+##  Key Metrics (KPIs)
 
-Focuses on factors influencing churn
+- **Total Customers**: ~7,000
+- **Churn Rate**: ~27%
+- **Average Customer Lifetime**: ~32 months
+- **Average Monthly Charges**
+- **Customers Churned**
 
-### Key Visuals:
+##  Dashboard Structure
 
-Churn Rate by Tech Support
-Churn Rate by Online Security
-Churn Rate by Device Protection
-Average Customer Lifetime by Customer Status
- Page 3: Key Insights & Recommendations
+### Page 1: Executive Overview
+- KPI Cards (Total Customers, Churn Rate, Avg. Lifetime, etc.)
+- Churn Rate by Contract Type
+- Churn Rate by Tenure Group
+- Churn Rate by Payment Method
+- Churn Rate by Internet Service
+- Churn Rate by Monthly Charges
 
-Summarizes findings and business actions derived from the analysis
+### Page 2: Retention Drivers Analysis
+- Churn Rate by Tech Support, Online Security & Device Protection
+- Average Customer Lifetime by Churn Status
+- Deep dive into factors influencing retention
 
-## Key Insights
-Customers on month-to-month contracts have the highest churn rates
-Churn is highest within the first 12–24 months
-Customers using electronic check payments show higher churn
-Higher monthly charges are associated with increased churn
-Customers without tech support, online security, and device protection are significantly more likely to churn
-Retained customers have a much longer lifetime compared to churned customers
- Business Recommendations
-Improve customer onboarding to reduce early churn
-Encourage long-term contracts through incentives
-Bundle support and security services to increase retention
-Target high-risk customers using data-driven strategies
-Ensure pricing aligns with perceived customer value
-## Conclusion
+### Page 3: Insights & Recommendations
+- Summary of key findings
+- Actionable business recommendations
 
-This analysis highlights that churn is driven by contract flexibility, early customer lifecycle, pricing, and lack of value-added services. By focusing on retention strategies and improving customer experience, businesses can significantly reduce churn and improve long-term profitability.
+**Interactive Filters:** Gender, Contract Type, Internet Service, Tenure Group, Payment Method
 
-## Showcase
+##  Key Insights
 
-This project was developed as part of a Data Science & Analytics task focused on customer retention and churn analysis, demonstrating real-world business problem solving using data.
-#Author
-Koketso Lebelo
+- Month-to-month contracts have significantly higher churn rates
+- Highest churn occurs within the **first 12–24 months** of tenure
+- Customers paying via **electronic check** show elevated churn
+- Higher monthly charges strongly correlate with increased churn
+- Customers **without** Tech Support, Online Security, or Device Protection are far more likely to churn
+- Retained customers have a much longer average lifetime than churned ones
+
+##  Business Recommendations
+
+- Strengthen onboarding experience to reduce early-stage churn
+- Offer incentives and discounts to encourage longer-term contracts
+- Bundle value-added services (Tech Support, Online Security, Device Protection) to increase stickiness
+- Proactively engage high-risk segments (month-to-month + high monthly charge + low tenure)
+- Review pricing strategy to ensure charges align with delivered value
+
+
+##  How to Use
+
+1. Clone or download the repository
+2. Open `Future Interns Task 2.pbix` in **Power BI Desktop**
+3. Use the slicers and filters to explore different customer segments and insights
+
+##  Project Highlights
+
+- Real-world churn analysis using industry-standard techniques
+- Professional dashboard design with clear storytelling
+- Strong focus on **actionable business recommendations**
+- Feature engineering and DAX implementation for deeper insights
+
+---
+
+**Author:** Koketso Lebelo  
+
+
