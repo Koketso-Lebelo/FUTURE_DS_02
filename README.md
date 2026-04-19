@@ -26,7 +26,7 @@ Interactive dashboard design
 Data visualization
 # Data Preparation
 
-###Key steps performed:
+### Key steps performed:
 
 Cleaned and structured the dataset
 Converted data types where necessary
